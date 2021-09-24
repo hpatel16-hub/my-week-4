@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <title>Form Design Exercise</title>
 	
+  </style>
 </head>
 <body>
    <h1><center>
@@ -13,10 +14,18 @@
    </h3>
 
 <form><center>
+  
   <table>
   <tr>
           <td>
-		  <label for="email">Email:</label>
+		  <label for="email" class="required">Email:</label>
+		  <style>
+             .required:after 
+			 {
+             content:" *";
+             color: red;
+             }
+          </style>
 		  </td>
   </tr>
   <br>
@@ -52,7 +61,14 @@
   <br>
   <tr>
           <td>
-		  <label for="research">Research Interest (list at least 3):</label>
+		  <label for="research" class="required">Research Interest (list at least 3):</label>
+		  <style>
+             .required:after 
+			 {
+             content:" *";
+             color: red;
+             }
+          </style>
 		  </td>
   </tr>
   <br>
@@ -64,7 +80,14 @@
   <br>
   <tr>
           <td>
-		  <label for="ptitle">Project Title - (e.g. income vs education US Census):</label>
+		  <label for="ptitle" class="required">Project Title - (e.g. income vs education US Census):</label>
+		  <style>
+             .required:after 
+			 {
+             content:" *";
+             color: red;
+             }
+          </style>
 		  </td>
   </tr>
   <br>
@@ -76,7 +99,14 @@
   <br>
   <tr>
           <td>
-		  <label for="tskills"> Top Skills:</label>
+		  <label for="tskills" class="required"> Top Skills:</label>
+		  <style>
+             .required:after 
+			 {
+             content:" *";
+             color: red;
+             }
+          </style>
 		  </td>
   </tr>
   <br>
